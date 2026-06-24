@@ -1,9 +1,9 @@
-.navbar ul {
-    background-color: #333333;
-    color: white;
-    padding: 0px;
+.navbar ul {         <!-- styling navbar-->
+    background-color: #333333;    <!-- navbar background is black-->
+    color: white;    <!-- text is white-->
+    padding: 0px;     <!-- space around element-->
 
- header {
+ header {                             <!--placement of header -->
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,13 +11,13 @@
 
  }
 
- .title-area h1,
+ .title-area h1,                    <!--placement of title -->
  .title-area p {
     margin: 0;
 
  }
 
- navbar ul {
+ navbar ul {                       <!--title is moved another position -->
     display: flex;
     gap: 20px;
     padding: 0;
