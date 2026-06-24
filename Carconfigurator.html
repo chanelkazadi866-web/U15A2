@@ -1,74 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
+<!DOCTYPE html>      <!-- Document type is html -->
+<html lang="en">            <!-- language english -->
+    <head>                   <!-- information about page -->
 
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">     <!--  allows character, symbols and letters to be written correctly -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     <!-- fits any screen size -->
         
-        <link rel="stylesheet" href="style.css"> 
-        <script src="scripts/javascript.js"></script>
-        <title>DriveSpace</title>
-    </head>
-    <body>
-        <header>
-        <div class="navbar">
-        <h1>DriveSpace</h1>
+        <link rel="stylesheet" href="style.css">          <!--links to external style.css file  -->
+        <script src="scripts/javascript.js"></script>           <!-- links to javascript for interactivity -->
+        <title>DriveSpace</title>                   <!--title for webpage  -->
+    </head>                             <!--section ended  -->
+    <body>                               <!--  information in the website-->     
+        <header>                             <!-- important writing on top of the website -->
+        <div class="navbar">         <!-- container for navbar  -->
+        <h1>DriveSpace</h1>              <!-- level 1 heading -->        
       
 
-    </div>
+    </div>                                <!-- end of container-->
 
         
 
-        <nav class="navbar">
-            <ul> 
-               <li><a href="index.html">Home</a></li>
-<li><a href="Vehiclecatalogue.html">Vehicle catalogue</a></li>
-<li><a href="Carconfigurator.html">Car Configurator</a></li>
-<li><a href="Bookatestdrive.html">Book a Test Drive</a></li>
-<li><a href="FinanceCalculator.html">Finance Calculator</a></li>
+        <nav class="navbar">           <!-- holding navbar links -->
+            <ul>     <!--  -->
+               <li><a href="index.html">Home</a></li>         <!-- unorded list -->
+<li><a href="Vehiclecatalogue.html">Vehicle catalogue</a></li>        <!--  link to vehicle catalogue-->
+<li><a href="Carconfigurator.html">Car Configurator</a></li>           <!-- link to car configurator -->
+<li><a href="Bookatestdrive.html">Book a Test Drive</a></li>                  <!-- link to book a test drive -->
+<li><a href="FinanceCalculator.html">Finance Calculator</a></li>         <!-- link to finance calculator -->
 
 
-            </ul>
-        </nav>
-        </header>
+            </ul>                    <!-- end of unorded list -->
+        </nav>               <!-- end of nav bar container -->
+        </header>              <!--  -->
 
-        <main>
+        <main>              <!-- main content of a webpage -->
            
    
 
 
-<label>Select a car:</label>
-<select id="carSelect">
-    <option value="design1">XC60 Core</option>
-    <option value="design2">XC60 Plus</option>
-    <option value="design3">ES90 ULTRA</option>
-    <option value="design4">EX30 Plus</option>
-</select>
+<label>Select a car:</label>             <!-- shows the text select a car -->  
+<select id="carSelect">          <!--creates a dropdown menu where user can select a car  -->
+    <option value="design1">XC60 Core</option>       <!--car option -->      
+    <option value="design2">XC60 Plus</option>               <!-- car option -->
+    <option value="design3">ES90 ULTRA</option>              <!-- car option -->
+    <option value="design4">EX30 Plus</option>             <!--car option  -->
+</select>                                 <!-- end of dropdown bar -->
 
-<br><br>
+<br><br>               <!-- moves content on new line -->
 
-<label>Select a colour:</label>
-<select id="colourSelect"></select>
+<label>Select a colour:</label>            <!-- shows text to select a colour -->
+<select id="colourSelect"></select>          <!--  dropdown menu for colours-->
 
-<br><br>
+<br><br>                 <!-- moves content on new line -->                  
 
-<img id="carImage" src="Design1.avif" class="vehicle-img">
+<img id="carImage" src="Design1.avif" class="vehicle-img">     <!-- image of car -->
 
-<div id="carInfo">
-    <h3 id="carName">XC60 Core</h3>
-    <p id="carDesc">
-        Elegant and stylish design<br>
-        Comfortable and spacious interior<br>
-        Advanced safety features<br>
-        Efficient engine options
-    </p>
-    <span id="carPrice">£20,995</span>
-</div>
+<div id="carInfo">                                   <!-- container of car information -->
+    <h3 id="carName">XC60 Core</h3>          <!-- name of car -->       
+    <p id="carDesc">                         <!--  -->
+        Elegant and stylish design<br>           <!--  -->
+        Comfortable and spacious interior<br>        <!--  --> 
+        Advanced safety features<br>          <!--  -->
+        Efficient engine options               <!--  -->
+    </p>                <!--  -->
+    <span id="carPrice">£20,995</span>          <!--  -->
+</div>            <!--  --> 
 
-<script>
-const carData = {
-    design1: {
+<script>           <!--  -->
+const carData = {       <!--  -->
+    design1: {              <!--  -->
         name: "XC60 Core",
         desc: "Elegant and stylish design\nComfortable and spacious interior\nAdvanced safety features for a secure driving experience\nEfficient engine options for great fuel economy",
         price: "£20,995",
@@ -78,7 +78,7 @@ const carData = {
         }
     },
 
-    design2: {
+    design2: {        <!--  -->
         name: "XC60 Plus",
         desc: "Smooth and comfortable ride\nSpacious interior with premium materials\nAdvanced safety features for peace of mind\nPowerful engine options for an exhilarating driving experience",
         price: "£35,995",
