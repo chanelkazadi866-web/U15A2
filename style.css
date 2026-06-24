@@ -1,9 +1,9 @@
-.navbar ul {         <!-- styling navbar-->
-    background-color: #333333;    <!-- navbar background is black-->
-    color: white;    <!-- text is white-->
-    padding: 0px;     <!-- space around element-->
+.navbar ul {         >
+    background-color: #333333;    
+    color: white;    
+    padding: 0px; 
 
- header {                             <!--placement of header -->
+ header {                             
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,13 +11,13 @@
 
  }
 
- .title-area h1,                    <!--placement of title -->
+ .title-area h1,                   
  .title-area p {
     margin: 0;
 
  }
 
- navbar ul {                       <!--title is moved another position -->
+ navbar ul {                      
     display: flex;
     gap: 20px;
     padding: 0;
@@ -39,12 +39,12 @@
   background-color: #333333;
 }
 
-ul li {                      <!-- moves navbar -->
+ul li {                      
   float: left;
 }
 
 
-ul li a {                 <!--puts text in the centre -->
+ul li a {                 
   display: block;
   color: white;
   text-align: center;
@@ -67,7 +67,7 @@ h1, p {
     margin: 0;
 }
 
-.car-container {                    <!--moves car image -->
+.car-container {                  
     width: 100%;
     display: flex;
     justify-content: flex-end; /* moves image to the right */
