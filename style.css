@@ -27,24 +27,24 @@
  }
 
  .navbar ul li {
-    list-style-type: none;
+    list-style-type: none;    <!--styles list -->
     
  }
 
     
-  list-style-type: none;
+  list-style-type: none;        
   margin: 0;
   padding: 0px;
   overflow: hidden;
   background-color: #333333;
 }
 
-ul li {
+ul li {                      <!-- moves navbar -->
   float: left;
 }
 
 
-ul li a {
+ul li a {                 <!--puts text in the centre -->
   display: block;
   color: white;
   text-align: center;
@@ -67,7 +67,7 @@ h1, p {
     margin: 0;
 }
 
-.car-container {
+.car-container {                    <!--moves car image -->
     width: 100%;
     display: flex;
     justify-content: flex-end; /* moves image to the right */
