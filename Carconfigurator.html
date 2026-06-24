@@ -57,18 +57,18 @@
 
 <div id="carInfo">                                   <!-- container of car information -->
     <h3 id="carName">XC60 Core</h3>          <!-- name of car -->       
-    <p id="carDesc">                         <!--  -->
-        Elegant and stylish design<br>           <!--  -->
-        Comfortable and spacious interior<br>        <!--  --> 
-        Advanced safety features<br>          <!--  -->
-        Efficient engine options               <!--  -->
-    </p>                <!--  -->
-    <span id="carPrice">£20,995</span>          <!--  -->
-</div>            <!--  --> 
-
-<script>           <!--  -->
-const carData = {       <!--  -->
-    design1: {              <!--  -->
+    <p id="carDesc">                         <!--Car description  -->
+        Elegant and stylish design<br>           <!-- description of car -->
+        Comfortable and spacious interior<br>        <!-- description of car --> 
+        Advanced safety features<br>          <!-- description of car -->
+        Efficient engine options               <!-- description of car -->
+    </p>                <!-- paragraph ended -->
+    <span id="carPrice">£20,995</span>          <!-- shows the price -->
+</div>            <!-- end of container  --> 
+                                            <!-- all four designs holds cars information -->        
+<script>                          
+const carData = {       
+    design1: {              
         name: "XC60 Core",
         desc: "Elegant and stylish design\nComfortable and spacious interior\nAdvanced safety features for a secure driving experience\nEfficient engine options for great fuel economy",
         price: "£20,995",
@@ -77,8 +77,8 @@ const carData = {       <!--  -->
             black: "Design1.avif"
         }
     },
-
-    design2: {        <!--  -->
+                                   
+    design2: {         
         name: "XC60 Plus",
         desc: "Smooth and comfortable ride\nSpacious interior with premium materials\nAdvanced safety features for peace of mind\nPowerful engine options for an exhilarating driving experience",
         price: "£35,995",
@@ -107,7 +107,7 @@ const carData = {       <!--  -->
             black: "Design444.avif"
         }
     }
-};
+};   
 
 const carSelect = document.getElementById("carSelect");
 const colourSelect = document.getElementById("colourSelect");
@@ -115,6 +115,7 @@ const carImage = document.getElementById("carImage");
 const carName = document.getElementById("carName");
 const carDesc = document.getElementById("carDesc");
 const carPrice = document.getElementById("carPrice");
+        
 
 function updateColours(car) {
     colourSelect.innerHTML = "";
