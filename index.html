@@ -1,26 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>  
+<!DOCTYPE html>    <!-- document type is HTML-->
+<html lang="en">     <!-- Language is english-->
+    <head>   <!-- information for website -->
 
 
 
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">    <!-- all characters, letters and symbols-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   <!-- fits on different screen sizes-->
         
-        <link rel="stylesheet" href="style.css"> 
-        <script src="scripts/javascript.js"></script>
-        <title>DriveSpace</title>
+        <link rel="stylesheet" href="style.css">      <!-- link to external file -->
+        <script src="scripts/javascript.js"></script>    <!-- makes website interactive -->
+        <title>DriveSpace</title>                       <!--title on webpage -->
+        
+ <!--description of website -->
+        <meta name="description" content="DriveSpace is a car dealership website that offers a wide range of vehicles for sale, including new and used cars."> 
+        <meta name="keywords" content="car dealership, cars for sale, new cars, used cars, car configurator, test drive, finance calculator">  <!--promotes website -->
 
-        <meta name="description" content="DriveSpace is a car dealership website that offers a wide range of vehicles for sale, including new and used cars.">
-        <meta name="keywords" content="car dealership, cars for sale, new cars, used cars, car configurator, test drive, finance calculator">
 
-
-    </head>
-    <body>
-        <header>
-        <div class="navbar">
-        <h1>DriveSpace</h1>
+    </head>   <!-- end for header section -->
+    <body>      <!-- information on website-->
+        <header>           <!-- important information-->
+        <div class="navbar">    <!-- container of navbar -->
+        <h1>DriveSpace</h1>      <!--level 1 heading -->
 
 
        
@@ -29,7 +30,7 @@
 
         
 
-        <nav class="navbar">
+        <nav class="navbar">   <!-- navigation bar links -->
             <ul> 
                <li><a href="index.html">Home</a></li>
 <li><a href="Vehiclecatalogue.html">Vehicle catalogue</a></li>
@@ -39,27 +40,27 @@
 
 
             </ul>
-        </nav>
-        </header>
+        </nav>     <!--end of nav bar -->
+        </header>    <!-- end of header-->
         
-        <div class="left-section">
-    <h2>Volvo EC40</h2>
+        <div class="left-section">     <!-- left arrow -->
+    <h2>Volvo EC40</h2>     <!-- headings-->
     <h3>BRAND NEW CAR</h3>
     <p>READ MORE</p>
 </div>
 
 
-    <div class="slider-wrapper">
+    <div class="slider-wrapper">        <!-- car images container-->
     <div class="car-slider">
     <img src="Carr1.jpg" class="car-image active">
     <img src="Carr2.jpg" class="car-image">
     <img src="Carr3.jpg" class="car-image">
 
-    <button class="arrow left" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="arrow left" onclick="changeSlide(-1)">&#10094;</button>             <!--buttons to see images -->
     <button class="arrow right" onclick="changeSlide(1)">&#10095;</button>
 </div>
 
-   <button class="price-btn" onclick="togglePrice()">Check Price</button>
+   <button class="price-btn" onclick="togglePrice()">Check Price</button>        <!-- price button-->
     <p id="car-price" class="hidden">£42,000</p>
 
 </div>
@@ -67,7 +68,7 @@
 <script>
 function togglePrice() {
     const price = document.getElementById("car-price");
-    price.classList.toggle("hidden");
+    price.classList.toggle("hidden");                          
 }
 </script>
 
